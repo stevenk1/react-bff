@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import data from '../../utils/data/friend-requests.json'
+import data from '../../utils/data/friend-requests-removed.json'
 
 // FriendRequest Service
 export default function handler(req: NextApiRequest, res: NextApiResponse<any>) {

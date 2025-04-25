@@ -75,7 +75,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     }
 
     try {
-        const response = await axios.get(`${api_url}/api/friend-requests`)
+        const response = await axios.get(`https://minapipoc-ewb4e2gebddmb6fe.westeurope-01.azurewebsites.net/friend-requests`)
         const api_data: any = response.data
         friend_requests_data = api_data
     } catch (err: any) {
